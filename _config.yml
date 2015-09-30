@@ -1,0 +1,20 @@
+# Site settings
+title: "Fatcowfeng"
+email: fatcowfeng@gmail.com
+baseurl: ""
+url: ""
+title_description: "我的技术学习blog"
+title_image: "http://www.gravatar.com/avatar/5d23f70095146fca689fd90828a32260?s=500&d=mm"
+github_repository: https://github.com/fatcowfeng/fatcowfeng.github.io
+
+
+# Social usernames/URLs
+github_username:  fatcowfeng
+
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
